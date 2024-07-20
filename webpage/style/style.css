@@ -1,0 +1,40 @@
+.card {
+    position: relative;
+    top: 0;
+    transition: all 0.3s linear;
+}
+
+.card:hover {
+    top: -30px;
+}
+
+#testAnime {
+    /* position: relative;
+    animation-name: test;
+    animation-timeline: scroll(); */
+
+
+    animation-duration: 3s;
+    animation-name: test;
+
+}
+
+@keyframes test {
+    /* from {
+        left: -200px;
+    }
+
+    to {
+        left: 0px;
+    } */
+
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
